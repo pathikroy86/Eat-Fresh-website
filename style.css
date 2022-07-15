@@ -69,14 +69,64 @@ span {
 
 .recipe {
     display: flex;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-right: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .box-prop {
     box-shadow: 10px 10px 40px grey;
     padding-top: 30px;
     padding-right: 30px;
-    margin-left: 5%;
+    margin-left: 2%;
+    border-radius: 50px;
+}
+
+.box-prop h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.box-prop p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.fourth-part {
+    display: flex;
+    padding-left: 250px;
+    padding-bottom: 55px;
+    box-shadow: 10px 10px 40px black;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 70px;
+    border-radius: 25px;
+}
+
+.width {
+    width: 33%;
+}
+
+.width h3 {
+    font-size: 50px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.712);
+    text-align: center;
+}
+
+.grey {
+    color: grey;
+    padding-left: 5px;
 }
