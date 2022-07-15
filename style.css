@@ -7,6 +7,7 @@ body {
     padding: 20px 10px 20px 20px;
     background-color: rgba(128, 128, 128, 0.178);
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -34,3 +35,9 @@ span {
     padding: 10px 20px;
     border-radius: 30px;
 }
+
+.second-part {
+    display: flex;
+}
+
+.resize-pic {}
